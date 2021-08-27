@@ -4,3 +4,27 @@ body
 
 a
   color: #00B7FF
+
+.flex
+  display: flex
+
+.flex.down
+  flex-direction: column
+
+.search-results
+  @extend .flex
+  @extend .flex.down
+  label
+    width: auto
+    font-size: 24px
+  div 
+    @extend .flex
+    align-items: center
+  input[type="radio"]
+    margin: 1em
+  input[type="submit"]
+    width: 300px
+
+.center
+  display: grid
+  place-items: center

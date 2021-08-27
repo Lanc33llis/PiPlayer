@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.flex, .search-results, .search-results div {
+  display: flex; }
+
+.flex.down, .search-results, .search-results div.down {
+  flex-direction: column; }
+
+.search-results label {
+  width: auto;
+  font-size: 24px; }
+
+.search-results div {
+  align-items: center; }
+
+.search-results input[type="radio"] {
+  margin: 1em; }
+
+.search-results input[type="submit"] {
+  width: 300px; }
+
+.center {
+  display: grid;
+  place-items: center; }
+
+/*# sourceMappingURL=style.css.map */

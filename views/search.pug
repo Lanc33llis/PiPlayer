@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Search results for: #{searchQuery}
+  form(action="/add" method="post" class="search-results")
+    each elem in data
+      div
+        input(type="radio" id=elem.title name="title" value=elem.title)
+        label(for=elem.title)=elem.title
+    input(type="submit" value="Add to queue")
