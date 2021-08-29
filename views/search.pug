@@ -2,9 +2,10 @@ extends layout
 
 block content
   h1 Search results for: #{searchQuery}
-  form(action="/add" method="post" class="search-results")
-    each elem in data
+  each elem in data
+    form(action="/add" method="post" class="search-results")
       div
-        input(type="radio" id=elem.title name="title" value=elem.title)
+        input(type="hidden" id=elem.title name="title" value=elem.title)
+        input(type="hidden" id=elem.url name="url" value=elem.url)
         label(for=elem.title)=elem.title
-    input(type="submit" value="Add to queue")
+        input(type="submit" value="Add to queue")

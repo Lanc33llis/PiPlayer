@@ -13,10 +13,24 @@
     "morgan": "~1.9.1",
     "node-sass-middleware": "0.11.0",
     "pug": "2.0.0-beta11",
-    "selenium-webdriver": "^4.0.0-beta.4"
+    "selenium-webdriver": "^4.0.0-beta.4",
+    "set-interval-async": "^2.0.3"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-google": "^0.14.0"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lanc33llis/PiPlayer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lanc33llis/PiPlayer/issues"
+  },
+  "homepage": "https://github.com/Lanc33llis/PiPlayer#readme",
+  "description": ""
 }

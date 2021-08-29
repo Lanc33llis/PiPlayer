@@ -1,3 +1,3 @@
-const vars = {}
+var vars = {}
 
 module.exports = vars
